@@ -31,7 +31,7 @@ function App() {
         />
         <p class="artis">Artis</p>
         <p class="album">Album</p>
-        <button id="myBtn">Next Song</button>
+        <button id="myBtn">select</button>
         </div>
     </div>
   );
