@@ -1,0 +1,59 @@
+.top-header {
+    width: auto;
+    text-align: center;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #dee7ec;
+  }
+  
+  button {
+    padding: 10px 60px;
+    background-color: rgb(44, 185, 103);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .playlist {
+    border: 2px solid black;
+    width: auto;
+    margin-right: 480px;
+    margin-left: 480px;
+    margin-top: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  
+  .isi {
+    text-align: center;
+  }
+  
+  .artis {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .album {
+    font-size: 14px;
+  }
+  
