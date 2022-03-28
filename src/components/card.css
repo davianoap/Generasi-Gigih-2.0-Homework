@@ -56,4 +56,9 @@
   .album {
     font-size: 14px;
   }
+
+  img {
+    height: 200px;
+    width: 240px;
+  }
   
