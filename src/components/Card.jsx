@@ -32,6 +32,7 @@ const Song = ({Title,album,artist,images}) => (
           alt="gambar"
         />
         <p class="artis">{artist}</p>
+        <p class="artis">{album}</p>
         <button id="myBtn">select</button>
       </div>
     </div>
