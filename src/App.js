@@ -1,18 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
-import Datalist from './components/Card';
+import Home from './pages/Home';
 
 const MUSPLAY=process.env.REACT_APP_MUSPLAY
 function App() {
   return (
     <div className="App">
-      <Card />
+      <Home />
     </div>
   );
 }
-
-
 
 
 export default App;
