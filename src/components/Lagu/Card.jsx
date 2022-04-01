@@ -17,6 +17,7 @@ const Card = ({title,singer,image}) => {
     </div>
     <div class="select">
     <button>select</button>
+    <button>unselect</button>
     </div>
   </div> 
   )
