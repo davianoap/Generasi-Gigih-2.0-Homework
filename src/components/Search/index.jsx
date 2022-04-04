@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-const SearchBar = ({ onSearch }) => {
+const Search = ({ onSearch }) => {
   
     const onTrigger = (e) => {
         e.preventDefault();
@@ -23,4 +23,4 @@ const SearchBar = ({ onSearch }) => {
   )
 }
 
-export default SearchBar
+export default Search

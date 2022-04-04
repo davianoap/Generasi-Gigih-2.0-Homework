@@ -1,7 +1,7 @@
 import React from 'react'
 import './card.css'
 
-const Card = ({title,singer,image}) => {
+const Card = ({title,singer,image,isSelected,onSelect}) => {
   return (
   <div class="playlist">
     <div class="isi">
@@ -16,14 +16,10 @@ const Card = ({title,singer,image}) => {
         <p class="artis">{singer}</p>
     </div>
     <div class="select">
-    <button>select</button>
-    <button>unselect</button>
+    <button class="select" onClick={() => onSelect(isSelected)}>{ isSelected ? "Deselect" : "Select" }</button>
     </div>
   </div> 
   )
 }
-
-
-
 
 export default Card
