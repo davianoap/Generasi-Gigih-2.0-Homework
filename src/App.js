@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { Provider } from 'react-redux';
 import './App.css';
 import Home from './pages/Home';
 
