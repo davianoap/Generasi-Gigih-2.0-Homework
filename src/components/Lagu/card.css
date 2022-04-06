@@ -38,7 +38,7 @@
   color: black;
 }
 
-button {
+.playlist-button {
   background-color: #1CCA5C;
   color: white;
   border: none;

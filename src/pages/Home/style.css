@@ -1,10 +1,4 @@
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
+
 
 .btn-create {
     background-color: #1CCA5C;

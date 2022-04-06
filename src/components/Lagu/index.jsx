@@ -16,7 +16,7 @@ const Card = ({title,singer,image,isSelected,onSelect}) => {
         <p class="artis">{singer}</p>
     </div>
     <div class="select">
-    <button class="select" onClick={() => onSelect(isSelected)}>{ isSelected ? "Deselect" : "Select" }</button>
+    <button className="playlist-button"onClick={() => onSelect(isSelected)}>{ isSelected ? "Deselect" : "Select" }</button>
     </div>
   </div> 
   )

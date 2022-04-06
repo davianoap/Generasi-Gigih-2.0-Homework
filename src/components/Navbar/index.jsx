@@ -50,11 +50,11 @@ const AppBar = ({ token, onResult, onCreatePlaylist, onLogout }) => {
         <div className="appbar">
             <Search onSearch={search}/>
             <div className="menu">
-                <button className="btn" onClick={onCreatePlaylist}>Create Playlist</button>
+                <button className="btn-text" onClick={onCreatePlaylist}>Create Playlist</button>
                 <button className="btn-text">My Playlist</button>
                 { token === "" ? 
-                    <button className="btn-text" onClick={login}>Login</button> : 
-                    <button className="btn-text" onClick={logout}>Logout</button>
+                    <button className="btn" onClick={login}>Login</button> : 
+                    <button className="btn" onClick={logout}>Logout</button>
                 }
             </div>
         </div>
