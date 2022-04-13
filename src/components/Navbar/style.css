@@ -9,7 +9,7 @@
 }
 
 .menu {
-    display: inline-flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 12px;
 }
